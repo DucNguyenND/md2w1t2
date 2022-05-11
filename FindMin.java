@@ -14,9 +14,9 @@ public class FindMin {
             count++;
         }
         System.out.println("Số nhỏ nhất là: ");
-        System.out.println(finMax(arr));
+        System.out.println(finMin(arr));
     }
-    public static float finMax(float[]arr){
+    public static float finMin(float[]arr){
         float min=arr[0];
         for (int i = 1; i < arr.length; i++) {
             if (min>arr[i]){
