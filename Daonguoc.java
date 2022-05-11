@@ -20,8 +20,9 @@ public class Daonguoc {
             arr[count]=a;
             count++;
         }
+        System.out.println("Mảng đảo ngược là: ");
         for (int i = 0; i < number; i++) {
-            System.out.println(reverSe(arr,number)[i]);
+            System.out.print(reverSe(arr,number)[i]+"\t");
 
         }
     }
